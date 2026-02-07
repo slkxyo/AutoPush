@@ -1,10 +1,8 @@
 package org.slkxy;
 
-import ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy;
 import lombok.extern.slf4j.Slf4j;
 import org.jline.reader.LineReader;
 import org.jline.reader.LineReaderBuilder;
-import org.jline.reader.Widget;
 import org.jline.terminal.Terminal;
 import org.jline.terminal.TerminalBuilder;
 import org.jline.utils.AttributedString;
@@ -17,7 +15,6 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 
 @Slf4j
 public class Main {
@@ -39,6 +36,7 @@ public class Main {
                 pushToRemote();
             }
             else{
+                exec(Arrays.asList("git","pull"));
                 exec(Arrays.asList("git","add","-A"));
                 exec(Arrays.asList("git","commit","-m", LocalDateTime.now().format(DateTimeFormatter.ofPattern("YYYY-MM-D hh:mm:ss")) + " Auto Commit"));
                 boolean pushIsOk = exec(Arrays.asList("git","push"));
