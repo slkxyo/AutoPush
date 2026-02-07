@@ -20,16 +20,6 @@ Please select your preferred language to view the complete documentation:
 - **[English Documentation →](docs/README.en-US.md)**
 - **[中文文档 →](docs/README.zh-CN.md)**
 
-## ⚡ Quick Start
-
-```bash
-# Build
-mvn clean package
-
-# Run
-java -jar target/AutoPush-1.0-SNAPSHOT.jar
-```
-
 ## ✨ Key Features
 
 - 🚀 Auto-detect Git repository status
@@ -37,14 +27,3 @@ java -jar target/AutoPush-1.0-SNAPSHOT.jar
 - 🆕 Auto create GitHub repository
 - 🔒 Support public/private repository
 - 🎨 Colorful terminal output
-
-## 📋 Requirements
-
-- Git
-- GitHub CLI (gh)
-- Java 17+
-- Maven
-
----
-
-**For detailed usage, installation guide, and troubleshooting, please refer to the documentation above.**
