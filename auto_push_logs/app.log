@@ -108,3 +108,44 @@
 2026-02-07 17:34:12.381 INFO  [main] org.slkxy.Writer - ========== To github.com:slkxyo/AutoPush.git
 2026-02-07 17:34:12.390 INFO  [main] org.slkxy.Writer - ==========    9e83b23..3947f67  main -> main
 2026-02-07 17:34:12.398 INFO  [main] org.slkxy.Writer - Done!
+2026-02-07 17:51:14.432 INFO  [main] org.slkxy.Writer - Welcome to the Auto Push.
+2026-02-07 17:51:14.487 INFO  [main] org.slkxy.Writer - EXEC====== [git, version]
+2026-02-07 17:51:14.526 INFO  [main] org.slkxy.Writer - ========== git version 2.52.0.windows.1
+2026-02-07 17:51:14.543 INFO  [main] org.slkxy.Writer - EXEC====== [gh, auth, status]
+2026-02-07 17:51:15.239 INFO  [main] org.slkxy.Writer - ========== github.com
+2026-02-07 17:51:15.255 INFO  [main] org.slkxy.Writer - ==========   âœ? Logged in to github.com account slkxyo (keyring)
+2026-02-07 17:51:15.267 INFO  [main] org.slkxy.Writer - ==========   - Active account: true
+2026-02-07 17:51:15.274 INFO  [main] org.slkxy.Writer - ==========   - Git operations protocol: ssh
+2026-02-07 17:51:15.292 INFO  [main] org.slkxy.Writer - ==========   - Token: gho_************************************
+2026-02-07 17:51:15.303 INFO  [main] org.slkxy.Writer - ==========   - Token scopes: 'delete_repo', 'gist', 'read:org', 'repo'
+2026-02-07 17:51:15.309 INFO  [main] org.slkxy.Writer - Git and Github CLI is ready.
+2026-02-07 17:51:15.328 INFO  [main] org.slkxy.Writer - EXEC====== [git, status]
+2026-02-07 17:51:15.378 INFO  [main] org.slkxy.Writer - ========== On branch main
+2026-02-07 17:51:15.391 INFO  [main] org.slkxy.Writer - ========== Your branch is up to date with 'origin/main'.
+2026-02-07 17:51:15.402 INFO  [main] org.slkxy.Writer - ========== 
+2026-02-07 17:51:15.413 INFO  [main] org.slkxy.Writer - ========== Changes not staged for commit:
+2026-02-07 17:51:15.432 INFO  [main] org.slkxy.Writer - ==========   (use "git add <file>..." to update what will be committed)
+2026-02-07 17:51:15.442 INFO  [main] org.slkxy.Writer - ==========   (use "git restore <file>..." to discard changes in working directory)
+2026-02-07 17:51:15.448 INFO  [main] org.slkxy.Writer - ========== 	modified:   .gitignore
+2026-02-07 17:51:15.464 INFO  [main] org.slkxy.Writer - ========== 	modified:   auto_push_logs/app.log
+2026-02-07 17:51:15.476 INFO  [main] org.slkxy.Writer - ========== 
+2026-02-07 17:51:15.483 INFO  [main] org.slkxy.Writer - ========== Untracked files:
+2026-02-07 17:51:15.497 INFO  [main] org.slkxy.Writer - ==========   (use "git add <file>..." to include in what will be committed)
+2026-02-07 17:51:15.507 INFO  [main] org.slkxy.Writer - ========== 	.idea/
+2026-02-07 17:51:15.517 INFO  [main] org.slkxy.Writer - ========== 
+2026-02-07 17:51:15.528 INFO  [main] org.slkxy.Writer - ========== no changes added to commit (use "git add" and/or "git commit -a")
+2026-02-07 17:51:15.541 INFO  [main] org.slkxy.Writer - EXEC====== [git, remote]
+2026-02-07 17:51:15.585 INFO  [main] org.slkxy.Writer - ========== origin
+2026-02-07 17:51:15.599 INFO  [main] org.slkxy.Writer - EXEC====== [git, pull]
+2026-02-07 17:51:19.613 INFO  [main] org.slkxy.Writer - ========== Already up to date.
+2026-02-07 17:51:19.628 INFO  [main] org.slkxy.Writer - EXEC====== [git, add, -A]
+2026-02-07 17:51:19.670 INFO  [main] org.slkxy.Writer - ========== warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+2026-02-07 17:51:19.685 INFO  [main] org.slkxy.Writer - ========== warning: in the working copy of '.idea/workspace.xml', LF will be replaced by CRLF the next time Git touches it
+2026-02-07 17:51:19.699 INFO  [main] org.slkxy.Writer - EXEC====== [git, commit, -m, 2026-02-38 05:51:19 Auto Commit]
+2026-02-07 17:51:19.845 INFO  [main] org.slkxy.Writer - ========== [main 8abad4b] 2026-02-38 05:51:19 Auto Commit
+2026-02-07 17:51:19.854 INFO  [main] org.slkxy.Writer - ==========  3 files changed, 100 insertions(+), 1 deletion(-)
+2026-02-07 17:51:19.863 INFO  [main] org.slkxy.Writer - ==========  create mode 100644 .idea/workspace.xml
+2026-02-07 17:51:19.877 INFO  [main] org.slkxy.Writer - EXEC====== [git, push]
+2026-02-07 17:51:23.710 INFO  [main] org.slkxy.Writer - ========== To github.com:slkxyo/AutoPush.git
+2026-02-07 17:51:23.719 INFO  [main] org.slkxy.Writer - ==========    3947f67..8abad4b  main -> main
+2026-02-07 17:51:23.730 INFO  [main] org.slkxy.Writer - Done!
