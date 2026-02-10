@@ -36,9 +36,9 @@ public class Main {
                 pushToRemote();
             }
             else{
-                exec(Arrays.asList("git","pull"));
                 exec(Arrays.asList("git","add","-A"));
                 exec(Arrays.asList("git","commit","-m", LocalDateTime.now().format(DateTimeFormatter.ofPattern("YYYY-MM-D hh:mm:ss")) + " Auto Commit"));
+                exec(Arrays.asList("git","pull"));
                 boolean pushIsOk = exec(Arrays.asList("git","push"));
                 if(pushIsOk){
                     Writer.builder().green().build().write("Done!");
